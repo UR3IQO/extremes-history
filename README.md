@@ -3,7 +3,7 @@ This highcharts plugin adds navigation over extremes changes in the Highstock ch
 
 
 ### Requirements
-Tested with the latest () highcharts, but should work with the earlier versions too. The browser should implement the History API.
+Tested with the latest (v5.0.2) highcharts, but should work with the earlier versions too. The browser should implement the History API.
 
 ### Usage
 Just include plugin in your html document:
