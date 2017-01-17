@@ -28,7 +28,12 @@
       //add setExtremes event handler
       H.addEvent(chart.xAxis[0], 'setExtremes', function (e) 
       {
-         document.title = title.text + dateStart + H.dateFormat(title.dateFormat, e.min) + rangeDelimiter + H.dateFormat(title.dateFormat, e.max) + dateEnd;
+         document.title = title.text + 
+                          title.dateStart + 
+                          H.dateFormat(title.dateFormat, e.min) + 
+                          title.rangeDelimiter + 
+                          H.dateFormat(title.dateFormat, e.max) + 
+                          title.dateEnd;
       });
 
    });
