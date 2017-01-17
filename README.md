@@ -1,5 +1,5 @@
-# extremes-history
-This highcharts plugin adds navigation over extremes changes in the Highstock chart using standard browser 'back'/'forward' commands. Also you can add extremes information from your Highstock chart to the document title, so the navigation in the browser will be easier:
+# Extremes history plugin
+This highcharts plugin adds navigation over extremes changes in the Highstock chart using standard browser history and 'back'/'forward' commands. Also you can add extremes information from your Highstock chart to the document title, so the navigation in the browser will be easier:
 ![Demo](https://github.com/sov1178/extremes-history/raw/master/extremes-history-demo.gif)
 
 ### Requirements
@@ -10,7 +10,7 @@ Just include plugin in your html document:
 ```
    <script src="extremes-history.js"></script>   
 ```
-There is a new option:
+There is a new chart option:
 ```
 {
    history:
@@ -26,7 +26,7 @@ If you want to add extremes to your document title you should include 'extremes-
    <script src="extremes-title.js"></script>
 ```
 
-You can customise title and date-time format with the following options:
+You can customize title and date-time format with the following options:
 ```
 {
   title: {
